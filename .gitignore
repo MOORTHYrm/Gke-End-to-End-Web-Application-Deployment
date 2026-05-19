@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Flask
+instance/
+.webassets-cache
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+*.tfvars
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# Helm
+charts/*.tgz
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+secrets.yaml
+*.pem
+*.key
+*.crt
+
+# SonarQube
+.scannerwork/
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
+
+# Dependency cache
+node_modules/
+
+# Trivy
+.trivycache/
+
+# GitHub Actions
+.github/*.secret
+
+# GCP
+gcp-key.json
+service-account.json
