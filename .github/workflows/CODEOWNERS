@@ -1,0 +1,17 @@
+# Global owners
+* @devops-team
+
+# Terraform
+terraform/ @infra-team
+
+# Kubernetes
+k8s/ @platform-team
+
+# GitHub workflows
+.github/ @security-team
+
+# Docker
+Dockerfile @platform-team
+
+# Security files
+security/ @security-team
